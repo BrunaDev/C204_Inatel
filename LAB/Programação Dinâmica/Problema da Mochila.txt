@@ -1,0 +1,21 @@
+Programação dinâmica - Problema da mochila
+
+1) Você foi em uma biblioteca e, querendo levar o máximo de livros relevantes possível, leva uma mochila consigo. Sabendo que essa mochila tem um limite de peso, e sabendo o peso e o nível de relevância de um conjunto com N livros, qual o máximo de livros de maior relevância que você pode levar? Utilize o código de apoio disponibilizado e faça os casos base e o caso geral desse problema.
+
+Exemplo de entrada: 
+4 
+10 
+6 3 
+8 4 
+10 8 
+6 5 
+Exemplo de saída:
+O valor maximo que consigo guardar e 14 
+Peguei o item 1 
+Peso: 4 
+Valor: 8 
+--------------------- 
+Peguei o item 3 
+Peso: 5 
+Valor: 6 
+---------------------

@@ -1,0 +1,29 @@
+Força bruta e algorítmo guloso
+
+Obs: Fazer 2 códigos por exercício, um por força bruta e outro com a estratégia gulosa
+
+1) Dengue: João quer acabar com os focos de dengue perto de sua casa. Para isso, ele conseguiu um mapa que mostra as distâncias de sua casa até os possíveis criatórios de Aedes Aegypti, e também as distâncias entre esses possíveis focos. Faça um progrma que ajude João a descobrir qual a distância mínima que ele gastará para sair de sua casa, visitar todos os focos de dengue exatamente uma vez e voltar para casa. A entrada consiste em um número N(2 <= N <= 8) que representa o número de focos de dengue, depois entre com as distâncias entre os focos (obs: o caminho do foco 0 ao foco 1 é o mesmo do foco 1 ao 0, e assim por diante, portanto esse valor deve ser fornescido apenas uma vez), por último entre com o ponto no mapa que indica a casa de João. 
+
+Exemplo de entrada: 
+4 
+4 2 3 
+1 5 
+4 
+0 
+Exemplo de saída: 
+fb: 11 
+gl: 11
+
+------------------------------------>>
+
+2) Caminhada: Carla gosta de caminhar, não só como exercício físico como também para realizar suas tarefas fora de casa (ir ao supermercado, ir ao banco, etc). Recentemente ela se mudou para um novo bairro, e consequentemente sua rotina de caminhada também. Faça um algorítmo que, dado a quantidade de lugares que Carla tem que passar, o ponto no mapa que indica sua casa, e a distância entre os lugares, calcule a maior rota que ela pode tomar em suas caminhadas.
+
+Exemplo de entrada: 
+4 
+15 9 5 
+5 8 
+4 
+0 
+Exemplo de saída: 
+fb: 36 
+gl: 36

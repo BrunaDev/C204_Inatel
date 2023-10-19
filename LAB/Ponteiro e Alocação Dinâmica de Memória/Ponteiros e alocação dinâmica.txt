@@ -1,0 +1,22 @@
+Ponteiros e alocação dinâmica de memória
+
+1) Aritmética com ponteiros: Faça uma função quereceba dois ponteiros de inteiro, e que multiplique os valores apontados por eles, o resultado retornado também deve ser um ponteiro de inteiro. 
+O cabeçalho para essa função deve ser: int* vezes(int *a, int *b)
+
+Exemplo de entrada: 
+7 8 
+Exemplo de saída: 
+56
+
+------------------------------------>>
+
+2) Maior idade: Faça um vetor de struct alocado dinâmicamente para guardar a matrícula e o nome de n pessoas, depois mostre a matrícula e idade da pessoa mais velha. 
+
+Exemplo de entrada: 
+3 
+4567 10 
+1278 11 
+5674 12 
+Exemplo de saida: 
+Matricula: 5674 
+Idade: 12

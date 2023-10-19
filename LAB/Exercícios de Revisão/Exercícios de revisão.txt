@@ -1,0 +1,34 @@
+Exercícios de revisão
+
+01) Estruturas de repetição e vetor de struct: faça um código que guarde o nome e idade de N (0 >= N >= 100) pessoas em um vetor de struct (a entrada deve ser feita até que seja entrada a idade -1). Depois mostre respectivamente a pessoa mais nova e a mais velha.
+
+Exemplo de entrada: 
+19 Ana Clara 
+37 Carlos 
+15 Raissa 
+21 Diogo 
+55 Valdinei 
+4 Elisa 
+-1 
+Exemplo de saída: 
+Elisa 
+Valdinei 
+
+------------------------------------>>
+
+02) Funções recursivas: escreva um programa que mostre o número correspondente à posição de um dado número N na Sequência de Fibonacci (0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...).
+
+Exemplo de entrada:
+10 
+Exemplo de saída:
+55 
+
+------------------------------------>>
+
+03) Alocação dinâmica de memória: faça um programa que crie dinamicamente um vetor com N elementos, depois mostre a média aritmética simples destes valores (não esqueça de liberar a memória ao final do programa).
+
+Exemplo de entrada:
+4
+2 7 4 9
+Exemplo de saída:
+5.5 
