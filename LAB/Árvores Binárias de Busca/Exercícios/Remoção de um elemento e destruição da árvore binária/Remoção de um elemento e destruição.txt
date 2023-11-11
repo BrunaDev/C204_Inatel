@@ -1,0 +1,58 @@
+Remoção de um elemento e destruição da árvore
+
+1) Faça um algoritmo que insira o nome de N pessoas em uma árvore binária de busca. A seguir, o programa deve realizar as seguintes operações: 
+1 -> pesquisar uma pessoa na árvore 
+2 -> remover uma pessoa da árvore 
+0 -> terminar programa 
+Não esqueça de destruir a árvore ao final do programa. 
+
+Exemplo de entrada: 
+5 
+Ana Beatriz 
+Gustavo 
+Leticia 
+Yago 
+Silas 
+1 
+Gustavo 
+2 
+Gustavo 
+1 
+Gustavo 
+0 
+
+Exemplo de saída: 
+Pessoa encontrada 
+Pessoa removida com sucesso 
+Pessoa nao encontrada
+
+--------------------------------------->>
+
+2) Faça o mesmo que o exercício 1, porém agora você deve utilizar uma struct que guarda o nome e a matrícula de cada pessoa. Utilize como critério de organização da árvore a matrícula de cada pessoa, e a pesquisa e remoção devem ser feitas utilizando o nome e matrícula. Não esqueça de destruir a árvore ao final do programa. 
+
+Exemplo de entrada: 
+3 
+Helena 
+1225 
+Marina 
+783 
+Joao Pedro
+5534 
+1 
+Helena 
+1225 
+2 
+Alice 
+1225 
+2 
+Helena 
+1225 
+1 
+Helena 
+1225 
+0 
+Exemplo de saída: 
+Pessoa encontrada 
+Pessoa não encontrada para remoção 
+Pessoa removida com sucesso 
+Pessoa nao encontrada
